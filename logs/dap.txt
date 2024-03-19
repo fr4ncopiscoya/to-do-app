@@ -1,0 +1,528 @@
+!! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.84.0
+Flutter extension: 3.84.0 (not activated)
+
+App: Visual Studio Code
+App Host: desktop
+Version: win 1.87.2
+
+
+Logging Categories:
+    DAP
+
+Tue Mar 19 2024 [06:39:21 GMT-0500 (Colombia Standard Time)] Log file started
+[6:53:10 AM] [DAP] [Info] Starting debug session fd456e01-5a19-445e-b396-0f41eab80870
+[6:53:10 AM] [DAP] [Info] ==> {"command":"initialize","arguments":{"clientID":"vscode","clientName":"Visual Studio Code","adapterID":"dart","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":true,"locale":"en","supportsProgressReporting":true,"supportsInvalidatedEvent":true,"supportsMemoryReferences":true,"supportsArgsCanBeInterpretedByShell":true,"supportsMemoryEvent":true,"supportsStartDebuggingRequest":true},"type":"request","seq":1}
+[6:53:10 AM] [DAP] [Info] <== {"seq":1,"type":"response","body":{"exceptionBreakpointFilters":[{"default":false,"filter":"All","label":"All Exceptions"},{"default":true,"filter":"Unhandled","label":"Uncaught Exceptions"}],"supportsClipboardContext":true,"supportsConditionalBreakpoints":true,"supportsConfigurationDoneRequest":true,"supportsDelayedStackTraceLoading":true,"supportsEvaluateForHovers":true,"supportsLogPoints":true,"supportsRestartFrame":true,"supportsRestartRequest":false,"supportsTerminateRequest":true,"supportsValueFormattingOptions":true},"command":"initialize","request_seq":1,"success":true}
+[6:53:10 AM] [DAP] [Info] <== {"seq":2,"type":"event","body":{},"event":"initialized"}
+[6:53:10 AM] [DAP] [Info] ==> {"command":"launch","arguments":{"dartCodeDebugSessionID":"session-88753","type":"dart","request":"launch","program":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart","projectRootPath":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","cwd":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","name":"Flutter (SM N975F)","deviceId":"127.0.0.1:21503","deviceName":"SM N975F (android-x64)","toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"},"sendLogsToClient":false,"sendCustomProgressEvents":true,"allowAnsiColorOutput":true,"additionalProjectPaths":["C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"],"args":[],"vmAdditionalArgs":[],"toolArgs":["-d","127.0.0.1:21503","--devtools-server-address","http://127.0.0.1:9100/"],"vmServicePort":0,"dartSdkPath":"C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk","vmServiceLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt","maxLogLineLength":2000,"dartTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt","debugSdkLibraries":false,"debugExternalPackageLibraries":false,"showDartDeveloperLogs":true,"evaluateGettersInDebugViews":true,"showGettersInDebugViews":true,"evaluateToStringInDebugViews":true,"flutterSdkPath":"C:\\Users\\franc\\flutter","useInspectorNotificationsForWidgetErrors":true,"flutterRunLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_run.txt","flutterTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_test.txt","showMemoryUsage":false,"debuggerType":2,"__sessionId":"fd456e01-5a19-445e-b396-0f41eab80870"},"type":"request","seq":2}
+[6:53:10 AM] [DAP] [Info] ==> {"command":"setExceptionBreakpoints","arguments":{"filters":["Unhandled"]},"type":"request","seq":3}
+[6:53:10 AM] [DAP] [Info] <== {"seq":3,"type":"response","body":{},"command":"setExceptionBreakpoints","request_seq":3,"success":true}
+[6:53:10 AM] [DAP] [Info] ==> {"command":"configurationDone","type":"request","seq":4}
+[6:53:10 AM] [DAP] [Info] <== {"seq":4,"type":"response","command":"configurationDone","request_seq":4,"success":true}
+[6:53:10 AM] [DAP] [Info] ==> {"command":"threads","type":"request","seq":5}
+[6:53:10 AM] [DAP] [Info] <== {"seq":5,"type":"event","body":{"message":"Launching…","progressId":"launch_1","title":"Flutter"},"event":"dart.progressStart"}
+[6:53:10 AM] [DAP] [Info] <== {"seq":6,"type":"response","command":"launch","request_seq":2,"success":true}
+[6:53:10 AM] [DAP] [Info] <== {"seq":7,"type":"response","body":{"threads":[]},"command":"threads","request_seq":5,"success":true}
+[6:53:11 AM] [DAP] [Info] <== {"seq":8,"type":"event","body":{"capabilities":{"supportsRestartRequest":true}},"event":"capabilities"}
+[6:53:11 AM] [DAP] [Info] <== {"seq":9,"type":"event","body":{"appId":"618827fb-a636-482e-9b23-9ecd28affcf4","deviceId":"127.0.0.1:21503","directory":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","supportsRestart":true,"launchMode":"run","mode":"debug"},"event":"flutter.appStart"}
+[6:53:12 AM] [DAP] [Info] <== {"seq":10,"type":"event","body":{"category":"console","output":"Launching lib\\main.dart on SM N975F in debug mode...\n"},"event":"output"}
+[6:53:45 AM] [DAP] [Info] <== {"seq":11,"type":"event","body":{"category":"console","output":"Checking the license for package Android SDK Platform 33 in C:\\Users\\franc\\AppData\\Local\\Android\\sdk\\licenses\n"},"event":"output"}
+[6:53:45 AM] [DAP] [Info] <== {"seq":12,"type":"event","body":{"category":"console","output":"License for package Android SDK Platform 33 accepted.\n"},"event":"output"}
+[6:53:45 AM] [DAP] [Info] <== {"seq":13,"type":"event","body":{"category":"console","output":"Preparing \"Install Android SDK Platform 33 (revision: 3)\".\n"},"event":"output"}
+[6:54:12 AM] [DAP] [Info] <== {"seq":14,"type":"event","body":{"category":"console","output":"\"Install Android SDK Platform 33 (revision: 3)\" ready.\n"},"event":"output"}
+[6:54:12 AM] [DAP] [Info] <== {"seq":15,"type":"event","body":{"category":"console","output":"Installing Android SDK Platform 33 in C:\\Users\\franc\\AppData\\Local\\Android\\sdk\\platforms\\android-33\n"},"event":"output"}
+[6:54:12 AM] [DAP] [Info] <== {"seq":16,"type":"event","body":{"category":"console","output":"\"Install Android SDK Platform 33 (revision: 3)\" complete.\n"},"event":"output"}
+[6:54:12 AM] [DAP] [Info] <== {"seq":17,"type":"event","body":{"category":"console","output":"\"Install Android SDK Platform 33 (revision: 3)\" finished.\n"},"event":"output"}
+[6:55:00 AM] [DAP] [Info] <== {"seq":18,"type":"event","body":{"category":"console","output":"√  Built build\\app\\outputs\\flutter-apk\\app-debug.apk.\n"},"event":"output"}
+[6:55:08 AM] [DAP] [Info] <== {"seq":19,"type":"event","body":{"progressId":"launch_1"},"event":"dart.progressEnd"}
+[6:55:08 AM] [DAP] [Info] <== {"seq":20,"type":"event","body":{"output":"Connecting to VM Service at ws://127.0.0.1:60106/veyABw6HgG0=/ws\n"},"event":"output"}
+[6:55:08 AM] [DAP] [Info] <== {"seq":21,"type":"event","body":{"vmServiceUri":"ws://127.0.0.1:60106/veyABw6HgG0=/ws"},"event":"dart.debuggerUris"}
+[6:55:08 AM] [DAP] [Info] <== {"seq":22,"type":"event","body":{"reason":"started","threadId":1},"event":"thread"}
+[6:55:09 AM] [DAP] [Info] ==> {"command":"threads","type":"request","seq":6}
+[6:55:09 AM] [DAP] [Info] <== {"seq":23,"type":"response","body":{"threads":[{"id":1,"name":"main"}]},"command":"threads","request_seq":6,"success":true}
+[6:55:09 AM] [DAP] [Info] <== {"seq":24,"type":"event","body":{},"event":"flutter.appStarted"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":25,"type":"event","body":{"service":"reloadSources","method":"s0.reloadSources"},"event":"dart.serviceRegistered"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":26,"type":"event","body":{"service":"hotRestart","method":"s0.hotRestart"},"event":"dart.serviceRegistered"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":27,"type":"event","body":{"service":"flutterVersion","method":"s0.flutterVersion"},"event":"dart.serviceRegistered"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":28,"type":"event","body":{"service":"compileExpression","method":"s0.compileExpression"},"event":"dart.serviceRegistered"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":29,"type":"event","body":{"service":"flutterMemoryInfo","method":"s0.flutterMemoryInfo"},"event":"dart.serviceRegistered"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":30,"type":"event","body":{"service":"flutterGetSkSL","method":"s0.flutterGetSkSL"},"event":"dart.serviceRegistered"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":31,"type":"event","body":{"service":"launchDevTools","method":"s2.launchDevTools"},"event":"dart.serviceRegistered"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":32,"type":"event","body":{"extensionRPC":"ext.flutter.reassemble","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":33,"type":"event","body":{"extensionRPC":"ext.flutter.exit","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":34,"type":"event","body":{"extensionRPC":"ext.flutter.connectedVmServiceUri","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":35,"type":"event","body":{"extensionRPC":"ext.flutter.activeDevToolsServerAddress","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":36,"type":"event","body":{"extensionRPC":"ext.flutter.platformOverride","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":37,"type":"event","body":{"extensionRPC":"ext.flutter.brightnessOverride","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":38,"type":"event","body":{"extensionRPC":"ext.flutter.timeDilation","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":39,"type":"event","body":{"extensionRPC":"ext.flutter.evict","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":40,"type":"event","body":{"extensionRPC":"ext.flutter.profilePlatformChannels","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":41,"type":"event","body":{"extensionRPC":"ext.flutter.invertOversizedImages","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":42,"type":"event","body":{"extensionRPC":"ext.flutter.debugPaint","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":43,"type":"event","body":{"extensionRPC":"ext.flutter.debugPaintBaselinesEnabled","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":44,"type":"event","body":{"extensionRPC":"ext.flutter.repaintRainbow","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":45,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpLayerTree","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":46,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisableClipLayers","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":47,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisablePhysicalShapeLayers","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":48,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisableOpacityLayers","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":49,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpRenderTree","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":50,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpSemanticsTreeInTraversalOrder","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":51,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpSemanticsTreeInInverseHitTestOrder","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":52,"type":"event","body":{"extensionRPC":"ext.flutter.profileRenderObjectPaints","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":53,"type":"event","body":{"extensionRPC":"ext.flutter.profileRenderObjectLayouts","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":54,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpApp","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":55,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpFocusTree","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":56,"type":"event","body":{"extensionRPC":"ext.flutter.showPerformanceOverlay","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":57,"type":"event","body":{"extensionRPC":"ext.flutter.didSendFirstFrameEvent","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":58,"type":"event","body":{"extensionRPC":"ext.flutter.didSendFirstFrameRasterizedEvent","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":59,"type":"event","body":{"extensionRPC":"ext.flutter.profileWidgetBuilds","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":60,"type":"event","body":{"extensionRPC":"ext.flutter.profileUserWidgetBuilds","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":61,"type":"event","body":{"extensionRPC":"ext.flutter.debugAllowBanner","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":62,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.structuredErrors","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":63,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.show","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":64,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.trackRebuildDirtyWidgets","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":65,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.trackRepaintWidgets","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":66,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeAllGroups","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":67,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeGroup","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":68,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.isWidgetTreeReady","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":69,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeId","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":70,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setPubRootDirectories","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":71,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.addPubRootDirectories","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":72,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.removePubRootDirectories","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":73,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getPubRootDirectories","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":74,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setSelectionById","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":75,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getParentChain","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":76,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getProperties","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":77,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildren","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":78,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildrenSummaryTree","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":79,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildrenDetailsSubtree","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":80,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidget","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":81,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidgetSummaryTree","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":82,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidgetSummaryTreeWithPreviews","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":83,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getDetailsSubtree","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":84,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getSelectedWidget","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":85,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getSelectedSummaryWidget","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":86,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.isWidgetCreationTracked","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":87,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.screenshot","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":88,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getLayoutExplorerNode","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":89,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexFit","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":90,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexFactor","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] <== {"seq":91,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexProperties","isolateId":"isolates/2997183997276659"},"event":"dart.serviceExtensionAdded"}
+[6:55:09 AM] [DAP] [Info] ==> {"command":"callService","arguments":{"method":"ext.flutter.inspector.addPubRootDirectories","params":{"isolateId":"isolates/2997183997276659","arg0":"file:///C:/Users/franc/OneDrive/Desktop/Proyectos/movil/apptodo"}},"type":"request","seq":7}
+[6:55:10 AM] [DAP] [Info] <== {"seq":92,"type":"event","body":{"extension":"ext.flutter.activeDevToolsServerAddress","value":"http://127.0.0.1:9100"},"event":"flutter.serviceExtensionStateChanged"}
+[6:55:10 AM] [DAP] [Info] <== {"seq":93,"type":"event","body":{"extension":"ext.flutter.connectedVmServiceUri","value":"http://127.0.0.1:60106/veyABw6HgG0=/"},"event":"flutter.serviceExtensionStateChanged"}
+[6:55:10 AM] [DAP] [Info] <== {"seq":94,"type":"response","body":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.addPubRootDirectories"},"command":"callService","request_seq":7,"success":true}
+[7:28:16 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":8}
+[7:28:16 AM] [DAP] [Info] <== {"seq":95,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_2","title":"Flutter"},"event":"dart.progressStart"}
+[7:28:17 AM] [DAP] [Info] <== {"seq":96,"type":"event","body":{"category":"stdout","output":"Reloaded 4 of 774 libraries in 923ms (compile: 98 ms, reload: 140 ms, reassemble: 219 ms).\n"},"event":"output"}
+[7:28:17 AM] [DAP] [Info] <== {"seq":97,"type":"event","body":{"progressId":"hotReload_2"},"event":"dart.progressEnd"}
+[7:28:17 AM] [DAP] [Info] <== {"seq":98,"type":"response","command":"hotReload","request_seq":8,"success":true}
+[7:48:46 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":9}
+[7:48:46 AM] [DAP] [Info] <== {"seq":99,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_3","title":"Flutter"},"event":"dart.progressStart"}
+[7:48:47 AM] [DAP] [Info] <== {"seq":100,"type":"event","body":{"category":"stdout","output":"Reloaded 2 of 774 libraries in 502ms (compile: 14 ms, reload: 126 ms, reassemble: 280 ms).\n"},"event":"output"}
+[7:48:47 AM] [DAP] [Info] <== {"seq":101,"type":"event","body":{"progressId":"hotReload_3"},"event":"dart.progressEnd"}
+[7:48:47 AM] [DAP] [Info] <== {"seq":102,"type":"response","command":"hotReload","request_seq":9,"success":true}
+[7:49:16 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":10}
+[7:49:16 AM] [DAP] [Info] <== {"seq":103,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_4","title":"Flutter"},"event":"dart.progressStart"}
+[7:49:17 AM] [DAP] [Info] <== {"seq":104,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 411ms (compile: 13 ms, reload: 147 ms, reassemble: 166 ms).\n"},"event":"output"}
+[7:49:17 AM] [DAP] [Info] <== {"seq":105,"type":"event","body":{"progressId":"hotReload_4"},"event":"dart.progressEnd"}
+[7:49:17 AM] [DAP] [Info] <== {"seq":106,"type":"response","command":"hotReload","request_seq":10,"success":true}
+[7:49:23 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":11}
+[7:49:23 AM] [DAP] [Info] <== {"seq":107,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_5","title":"Flutter"},"event":"dart.progressStart"}
+[7:49:23 AM] [DAP] [Info] <== {"seq":108,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 354ms (compile: 14 ms, reload: 140 ms, reassemble: 131 ms).\n"},"event":"output"}
+[7:49:23 AM] [DAP] [Info] <== {"seq":109,"type":"event","body":{"progressId":"hotReload_5"},"event":"dart.progressEnd"}
+[7:49:23 AM] [DAP] [Info] <== {"seq":110,"type":"response","command":"hotReload","request_seq":11,"success":true}
+[8:00:45 AM] [DAP] [Info] ==> {"command":"restart","arguments":{"arguments":{"dartCodeDebugSessionID":"session-88753","type":"dart","request":"launch","program":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart","projectRootPath":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","cwd":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","name":"Flutter (SM N975F)","deviceId":"127.0.0.1:21503","deviceName":"SM N975F (android-x64)","toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"},"sendLogsToClient":false,"sendCustomProgressEvents":true,"allowAnsiColorOutput":true,"additionalProjectPaths":["C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"],"args":[],"vmAdditionalArgs":[],"toolArgs":["-d","127.0.0.1:21503","--devtools-server-address","http://127.0.0.1:9100/"],"vmServicePort":0,"dartSdkPath":"C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk","vmServiceLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt","maxLogLineLength":2000,"dartTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt","debugSdkLibraries":false,"debugExternalPackageLibraries":false,"showDartDeveloperLogs":true,"evaluateGettersInDebugViews":true,"showGettersInDebugViews":true,"evaluateToStringInDebugViews":true,"flutterSdkPath":"C:\\Users\\franc\\flutter","useInspectorNotificationsForWidgetErrors":true,"flutterRunLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_run.txt","flutterTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_test.txt","showMemoryUsage":false,"debuggerType":2,"__sessionId":"fd456e01-5a19-445e-b396-0f41eab80870"}},"type":"request","seq":12}
+[8:00:45 AM] [DAP] [Info] <== {"seq":111,"type":"event","body":{"message":"Hot restarting…","progressId":"hotRestart_6","title":"Flutter"},"event":"dart.progressStart"}
+[8:00:45 AM] [DAP] [Info] <== {"seq":112,"type":"event","body":{"category":"stderr","output":"lib/home_screen.dart:106:33: Error: Too few positional arguments: 1 required, 0 given.\n"},"event":"output"}
+[8:00:45 AM] [DAP] [Info] <== {"seq":113,"type":"event","body":{"category":"stderr","output":"                  subtitle: Text(),\n"},"event":"output"}
+[8:00:45 AM] [DAP] [Info] <== {"seq":114,"type":"event","body":{"category":"stderr","output":""},"event":"output"}
+[8:00:45 AM] [DAP] [Info] <== {"seq":115,"type":"event","body":{"category":"stderr","output":"                                ^\n../../../../../flutter/packages/flutter/lib/src/widgets/text.dart:451:9: Context: Found this candidate, but the arguments don't match.\n  const Text(\n        ^^^^\n"},"event":"output"}
+[8:00:45 AM] [DAP] [Info] <== {"seq":116,"type":"event","body":{"category":"stdout","output":"Restarted application in 245ms.\n"},"event":"output"}
+[8:00:45 AM] [DAP] [Info] <== {"seq":117,"type":"event","body":{"progressId":"hotRestart_6"},"event":"dart.progressEnd"}
+[8:00:45 AM] [DAP] [Info] <== {"seq":118,"type":"response","command":"restart","request_seq":12,"success":true}
+[8:00:45 AM] [DAP] [Info] <== {"seq":119,"type":"event","body":{"extension":"ext.flutter.activeDevToolsServerAddress","value":"http://127.0.0.1:9100"},"event":"flutter.serviceExtensionStateChanged"}
+[8:00:45 AM] [DAP] [Info] <== {"seq":120,"type":"event","body":{"extension":"ext.flutter.connectedVmServiceUri","value":"http://127.0.0.1:60106/veyABw6HgG0=/"},"event":"flutter.serviceExtensionStateChanged"}
+[8:00:49 AM] [DAP] [Info] ==> {"command":"terminate","arguments":{"restart":false},"type":"request","seq":13}
+[8:00:49 AM] [DAP] [Info] <== {"seq":121,"type":"event","body":{"category":"stdout","output":"Application finished.\n"},"event":"output"}
+[8:00:49 AM] [DAP] [Info] <== {"seq":122,"type":"event","body":{"output":"\nExited (-1).\n"},"event":"output"}
+[8:00:49 AM] [DAP] [Info] <== {"seq":123,"type":"event","body":{},"event":"terminated"}
+[8:00:49 AM] [DAP] [Info] <== {"seq":124,"type":"response","command":"terminate","request_seq":13,"success":true}
+[8:00:49 AM] [DAP] [Info] ==> {"command":"disconnect","arguments":{"restart":false},"type":"request","seq":14}
+[8:00:49 AM] [DAP] [Info] <== {"seq":125,"type":"response","command":"disconnect","request_seq":14,"success":true}
+[8:00:49 AM] [DAP] [Info] Stopping debug session fd456e01-5a19-445e-b396-0f41eab80870
+[8:00:49 AM] [DAP] [Info] Debug session fd456e01-5a19-445e-b396-0f41eab80870 exit: code: 1, signal: undefined
+[8:00:49 AM] [DAP] [Info] Debug session fd456e01-5a19-445e-b396-0f41eab80870 errored: {}
+[8:00:52 AM] [General] [Warn] Project has errors, prompting user
+[8:00:52 AM] [General] [Warn]     C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\lib\home_screen.dart:105:33
+[8:00:52 AM] [General] [Warn]     1 positional argument expected by 'Text.new', but 0 found.
+[8:02:01 AM] [DAP] [Info] Starting debug session 1141fea3-5abc-42e1-a932-8fb91dc251b0
+[8:02:01 AM] [DAP] [Info] ==> {"command":"initialize","arguments":{"clientID":"vscode","clientName":"Visual Studio Code","adapterID":"dart","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":true,"locale":"en","supportsProgressReporting":true,"supportsInvalidatedEvent":true,"supportsMemoryReferences":true,"supportsArgsCanBeInterpretedByShell":true,"supportsMemoryEvent":true,"supportsStartDebuggingRequest":true},"type":"request","seq":1}
+[8:02:03 AM] [DAP] [Info] <== {"seq":1,"type":"response","body":{"exceptionBreakpointFilters":[{"default":false,"filter":"All","label":"All Exceptions"},{"default":true,"filter":"Unhandled","label":"Uncaught Exceptions"}],"supportsClipboardContext":true,"supportsConditionalBreakpoints":true,"supportsConfigurationDoneRequest":true,"supportsDelayedStackTraceLoading":true,"supportsEvaluateForHovers":true,"supportsLogPoints":true,"supportsRestartFrame":true,"supportsRestartRequest":false,"supportsTerminateRequest":true,"supportsValueFormattingOptions":true},"command":"initialize","request_seq":1,"success":true}
+[8:02:03 AM] [DAP] [Info] ==> {"command":"launch","arguments":{"dartCodeDebugSessionID":"session-93a24","type":"dart","request":"launch","program":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart","projectRootPath":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","cwd":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","name":"Flutter (SM N975F)","deviceId":"127.0.0.1:21503","deviceName":"SM N975F (android-x64)","toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"},"sendLogsToClient":false,"sendCustomProgressEvents":true,"allowAnsiColorOutput":true,"additionalProjectPaths":["C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"],"args":[],"vmAdditionalArgs":[],"toolArgs":["-d","127.0.0.1:21503","--devtools-server-address","http://127.0.0.1:9100/"],"vmServicePort":0,"dartSdkPath":"C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk","vmServiceLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt","maxLogLineLength":2000,"dartTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt","debugSdkLibraries":false,"debugExternalPackageLibraries":false,"showDartDeveloperLogs":true,"evaluateGettersInDebugViews":true,"showGettersInDebugViews":true,"evaluateToStringInDebugViews":true,"flutterSdkPath":"C:\\Users\\franc\\flutter","useInspectorNotificationsForWidgetErrors":true,"flutterRunLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_run.txt","flutterTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_test.txt","showMemoryUsage":false,"debuggerType":2,"__sessionId":"1141fea3-5abc-42e1-a932-8fb91dc251b0"},"type":"request","seq":2}
+[8:02:03 AM] [DAP] [Info] <== {"seq":2,"type":"event","body":{},"event":"initialized"}
+[8:02:03 AM] [DAP] [Info] ==> {"command":"setExceptionBreakpoints","arguments":{"filters":["Unhandled"]},"type":"request","seq":3}
+[8:02:03 AM] [DAP] [Info] <== {"seq":3,"type":"response","body":{},"command":"setExceptionBreakpoints","request_seq":3,"success":true}
+[8:02:03 AM] [DAP] [Info] ==> {"command":"configurationDone","type":"request","seq":4}
+[8:02:03 AM] [DAP] [Info] <== {"seq":4,"type":"response","command":"configurationDone","request_seq":4,"success":true}
+[8:02:03 AM] [DAP] [Info] ==> {"command":"threads","type":"request","seq":5}
+[8:02:03 AM] [DAP] [Info] <== {"seq":5,"type":"event","body":{"message":"Launching…","progressId":"launch_1","title":"Flutter"},"event":"dart.progressStart"}
+[8:02:03 AM] [DAP] [Info] <== {"seq":6,"type":"response","command":"launch","request_seq":2,"success":true}
+[8:02:03 AM] [DAP] [Info] <== {"seq":7,"type":"response","body":{"threads":[]},"command":"threads","request_seq":5,"success":true}
+[8:02:04 AM] [DAP] [Info] <== {"seq":8,"type":"event","body":{"capabilities":{"supportsRestartRequest":true}},"event":"capabilities"}
+[8:02:04 AM] [DAP] [Info] <== {"seq":9,"type":"event","body":{"appId":"bd3f8732-952e-4694-96fc-4afcf89059a2","deviceId":"127.0.0.1:21503","directory":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","supportsRestart":true,"launchMode":"run","mode":"debug"},"event":"flutter.appStart"}
+[8:02:04 AM] [DAP] [Info] <== {"seq":10,"type":"event","body":{"category":"console","output":"Launching lib\\main.dart on SM N975F in debug mode...\n"},"event":"output"}
+[8:02:17 AM] [DAP] [Info] <== {"seq":11,"type":"event","body":{"category":"console","output":"√  Built build\\app\\outputs\\flutter-apk\\app-debug.apk.\n"},"event":"output"}
+[8:02:27 AM] [DAP] [Info] <== {"seq":12,"type":"event","body":{"progressId":"launch_1"},"event":"dart.progressEnd"}
+[8:02:27 AM] [DAP] [Info] <== {"seq":13,"type":"event","body":{"output":"Connecting to VM Service at ws://127.0.0.1:63384/tHAFPZjnQ5Y=/ws\n"},"event":"output"}
+[8:02:27 AM] [DAP] [Info] <== {"seq":14,"type":"event","body":{"vmServiceUri":"ws://127.0.0.1:63384/tHAFPZjnQ5Y=/ws"},"event":"dart.debuggerUris"}
+[8:02:27 AM] [DAP] [Info] <== {"seq":15,"type":"event","body":{"reason":"started","threadId":1},"event":"thread"}
+[8:02:28 AM] [DAP] [Info] ==> {"command":"threads","type":"request","seq":6}
+[8:02:28 AM] [DAP] [Info] <== {"seq":16,"type":"response","body":{"threads":[{"id":1,"name":"main"}]},"command":"threads","request_seq":6,"success":true}
+[8:02:28 AM] [DAP] [Info] <== {"seq":17,"type":"event","body":{},"event":"flutter.appStarted"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":18,"type":"event","body":{"service":"reloadSources","method":"s0.reloadSources"},"event":"dart.serviceRegistered"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":19,"type":"event","body":{"service":"hotRestart","method":"s0.hotRestart"},"event":"dart.serviceRegistered"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":20,"type":"event","body":{"service":"flutterVersion","method":"s0.flutterVersion"},"event":"dart.serviceRegistered"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":21,"type":"event","body":{"service":"compileExpression","method":"s0.compileExpression"},"event":"dart.serviceRegistered"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":22,"type":"event","body":{"service":"flutterMemoryInfo","method":"s0.flutterMemoryInfo"},"event":"dart.serviceRegistered"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":23,"type":"event","body":{"service":"flutterGetSkSL","method":"s0.flutterGetSkSL"},"event":"dart.serviceRegistered"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":24,"type":"event","body":{"service":"launchDevTools","method":"s2.launchDevTools"},"event":"dart.serviceRegistered"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":25,"type":"event","body":{"extensionRPC":"ext.flutter.reassemble","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":26,"type":"event","body":{"extensionRPC":"ext.flutter.exit","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":27,"type":"event","body":{"extensionRPC":"ext.flutter.connectedVmServiceUri","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":28,"type":"event","body":{"extensionRPC":"ext.flutter.activeDevToolsServerAddress","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":29,"type":"event","body":{"extensionRPC":"ext.flutter.platformOverride","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":30,"type":"event","body":{"extensionRPC":"ext.flutter.brightnessOverride","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":31,"type":"event","body":{"extensionRPC":"ext.flutter.timeDilation","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":32,"type":"event","body":{"extensionRPC":"ext.flutter.evict","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":33,"type":"event","body":{"extensionRPC":"ext.flutter.profilePlatformChannels","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":34,"type":"event","body":{"extensionRPC":"ext.flutter.invertOversizedImages","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":35,"type":"event","body":{"extensionRPC":"ext.flutter.debugPaint","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":36,"type":"event","body":{"extensionRPC":"ext.flutter.debugPaintBaselinesEnabled","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":37,"type":"event","body":{"extensionRPC":"ext.flutter.repaintRainbow","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":38,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpLayerTree","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":39,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisableClipLayers","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":40,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisablePhysicalShapeLayers","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":41,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisableOpacityLayers","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":42,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpRenderTree","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":43,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpSemanticsTreeInTraversalOrder","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":44,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpSemanticsTreeInInverseHitTestOrder","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":45,"type":"event","body":{"extensionRPC":"ext.flutter.profileRenderObjectPaints","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":46,"type":"event","body":{"extensionRPC":"ext.flutter.profileRenderObjectLayouts","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":47,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpApp","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":48,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpFocusTree","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":49,"type":"event","body":{"extensionRPC":"ext.flutter.showPerformanceOverlay","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":50,"type":"event","body":{"extensionRPC":"ext.flutter.didSendFirstFrameEvent","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":51,"type":"event","body":{"extensionRPC":"ext.flutter.didSendFirstFrameRasterizedEvent","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":52,"type":"event","body":{"extensionRPC":"ext.flutter.profileWidgetBuilds","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":53,"type":"event","body":{"extensionRPC":"ext.flutter.profileUserWidgetBuilds","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":54,"type":"event","body":{"extensionRPC":"ext.flutter.debugAllowBanner","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":55,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.structuredErrors","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":56,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.show","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":57,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.trackRebuildDirtyWidgets","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":58,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.trackRepaintWidgets","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":59,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeAllGroups","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":60,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeGroup","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":61,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.isWidgetTreeReady","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":62,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeId","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":63,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setPubRootDirectories","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":64,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.addPubRootDirectories","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":65,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.removePubRootDirectories","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":66,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getPubRootDirectories","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":67,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setSelectionById","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":68,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getParentChain","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":69,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getProperties","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":70,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildren","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":71,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildrenSummaryTree","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":72,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildrenDetailsSubtree","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":73,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidget","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":74,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidgetSummaryTree","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":75,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidgetSummaryTreeWithPreviews","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":76,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getDetailsSubtree","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":77,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getSelectedWidget","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":78,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getSelectedSummaryWidget","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":79,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.isWidgetCreationTracked","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":80,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.screenshot","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":81,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getLayoutExplorerNode","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":82,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexFit","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":83,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexFactor","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] <== {"seq":84,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexProperties","isolateId":"isolates/1594156046443895"},"event":"dart.serviceExtensionAdded"}
+[8:02:28 AM] [DAP] [Info] ==> {"command":"callService","arguments":{"method":"ext.flutter.inspector.addPubRootDirectories","params":{"isolateId":"isolates/1594156046443895","arg0":"file:///C:/Users/franc/OneDrive/Desktop/Proyectos/movil/apptodo"}},"type":"request","seq":7}
+[8:02:29 AM] [DAP] [Info] <== {"seq":85,"type":"event","body":{"extension":"ext.flutter.activeDevToolsServerAddress","value":"http://127.0.0.1:9100"},"event":"flutter.serviceExtensionStateChanged"}
+[8:02:29 AM] [DAP] [Info] <== {"seq":86,"type":"event","body":{"extension":"ext.flutter.connectedVmServiceUri","value":"http://127.0.0.1:63384/tHAFPZjnQ5Y=/"},"event":"flutter.serviceExtensionStateChanged"}
+[8:02:29 AM] [DAP] [Info] <== {"seq":87,"type":"response","body":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.addPubRootDirectories"},"command":"callService","request_seq":7,"success":true}
+[8:03:27 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":8}
+[8:03:27 AM] [DAP] [Info] <== {"seq":88,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_2","title":"Flutter"},"event":"dart.progressStart"}
+[8:03:27 AM] [DAP] [Info] <== {"seq":89,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 555ms (compile: 14 ms, reload: 216 ms, reassemble: 190 ms).\n"},"event":"output"}
+[8:03:27 AM] [DAP] [Info] <== {"seq":90,"type":"event","body":{"progressId":"hotReload_2"},"event":"dart.progressEnd"}
+[8:03:27 AM] [DAP] [Info] <== {"seq":91,"type":"response","command":"hotReload","request_seq":8,"success":true}
+[8:03:34 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":9}
+[8:03:34 AM] [DAP] [Info] <== {"seq":92,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_3","title":"Flutter"},"event":"dart.progressStart"}
+[8:03:34 AM] [DAP] [Info] <== {"seq":93,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 391ms (compile: 11 ms, reload: 161 ms, reassemble: 143 ms).\n"},"event":"output"}
+[8:03:34 AM] [DAP] [Info] <== {"seq":94,"type":"event","body":{"progressId":"hotReload_3"},"event":"dart.progressEnd"}
+[8:03:34 AM] [DAP] [Info] <== {"seq":95,"type":"response","command":"hotReload","request_seq":9,"success":true}
+[8:03:44 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":10}
+[8:03:44 AM] [DAP] [Info] <== {"seq":96,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_4","title":"Flutter"},"event":"dart.progressStart"}
+[8:03:44 AM] [DAP] [Info] <== {"seq":97,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 401ms (compile: 11 ms, reload: 169 ms, reassemble: 153 ms).\n"},"event":"output"}
+[8:03:44 AM] [DAP] [Info] <== {"seq":98,"type":"event","body":{"progressId":"hotReload_4"},"event":"dart.progressEnd"}
+[8:03:44 AM] [DAP] [Info] <== {"seq":99,"type":"response","command":"hotReload","request_seq":10,"success":true}
+[8:03:55 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":11}
+[8:03:55 AM] [DAP] [Info] <== {"seq":100,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_5","title":"Flutter"},"event":"dart.progressStart"}
+[8:03:55 AM] [DAP] [Info] <== {"seq":101,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 392ms (compile: 12 ms, reload: 164 ms, reassemble: 149 ms).\n"},"event":"output"}
+[8:03:55 AM] [DAP] [Info] <== {"seq":102,"type":"event","body":{"progressId":"hotReload_5"},"event":"dart.progressEnd"}
+[8:03:55 AM] [DAP] [Info] <== {"seq":103,"type":"response","command":"hotReload","request_seq":11,"success":true}
+[8:04:01 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":12}
+[8:04:01 AM] [DAP] [Info] <== {"seq":104,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_6","title":"Flutter"},"event":"dart.progressStart"}
+[8:04:01 AM] [DAP] [Info] <== {"seq":105,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 437ms (compile: 17 ms, reload: 169 ms, reassemble: 155 ms).\n"},"event":"output"}
+[8:04:01 AM] [DAP] [Info] <== {"seq":106,"type":"event","body":{"progressId":"hotReload_6"},"event":"dart.progressEnd"}
+[8:04:01 AM] [DAP] [Info] <== {"seq":107,"type":"response","command":"hotReload","request_seq":12,"success":true}
+[8:16:01 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":13}
+[8:16:01 AM] [DAP] [Info] <== {"seq":108,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_7","title":"Flutter"},"event":"dart.progressStart"}
+[8:16:02 AM] [DAP] [Info] <== {"seq":109,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 534ms (compile: 16 ms, reload: 195 ms, reassemble: 202 ms).\n"},"event":"output"}
+[8:16:02 AM] [DAP] [Info] <== {"seq":110,"type":"event","body":{"progressId":"hotReload_7"},"event":"dart.progressEnd"}
+[8:16:02 AM] [DAP] [Info] <== {"seq":111,"type":"response","command":"hotReload","request_seq":13,"success":true}
+[8:16:21 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":14}
+[8:16:21 AM] [DAP] [Info] <== {"seq":112,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_8","title":"Flutter"},"event":"dart.progressStart"}
+[8:16:22 AM] [DAP] [Info] <== {"seq":113,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 451ms (compile: 12 ms, reload: 186 ms, reassemble: 191 ms).\n"},"event":"output"}
+[8:16:22 AM] [DAP] [Info] <== {"seq":114,"type":"event","body":{"progressId":"hotReload_8"},"event":"dart.progressEnd"}
+[8:16:22 AM] [DAP] [Info] <== {"seq":115,"type":"response","command":"hotReload","request_seq":14,"success":true}
+[8:16:23 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":15}
+[8:16:23 AM] [DAP] [Info] <== {"seq":116,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_9","title":"Flutter"},"event":"dart.progressStart"}
+[8:16:24 AM] [DAP] [Info] <== {"seq":117,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 434ms (compile: 12 ms, reload: 171 ms, reassemble: 187 ms).\n"},"event":"output"}
+[8:16:24 AM] [DAP] [Info] <== {"seq":118,"type":"event","body":{"progressId":"hotReload_9"},"event":"dart.progressEnd"}
+[8:16:24 AM] [DAP] [Info] <== {"seq":119,"type":"response","command":"hotReload","request_seq":15,"success":true}
+[8:16:26 AM] [DAP] [Info] ==> {"command":"terminate","arguments":{"restart":false},"type":"request","seq":16}
+[8:16:26 AM] [DAP] [Info] <== {"seq":120,"type":"event","body":{"category":"stdout","output":"Application finished.\n"},"event":"output"}
+[8:16:26 AM] [DAP] [Info] <== {"seq":121,"type":"event","body":{"output":"\nExited (-1).\n"},"event":"output"}
+[8:16:26 AM] [DAP] [Info] <== {"seq":122,"type":"event","body":{},"event":"terminated"}
+[8:16:26 AM] [DAP] [Info] <== {"seq":123,"type":"response","command":"terminate","request_seq":16,"success":true}
+[8:16:26 AM] [DAP] [Info] ==> {"command":"disconnect","arguments":{"restart":false},"type":"request","seq":17}
+[8:16:26 AM] [DAP] [Info] <== {"seq":124,"type":"response","command":"disconnect","request_seq":17,"success":true}
+[8:16:26 AM] [DAP] [Info] Stopping debug session 1141fea3-5abc-42e1-a932-8fb91dc251b0
+[8:16:26 AM] [DAP] [Info] Debug session 1141fea3-5abc-42e1-a932-8fb91dc251b0 errored: {}
+[8:16:26 AM] [DAP] [Info] Debug session 1141fea3-5abc-42e1-a932-8fb91dc251b0 exit: code: 1, signal: undefined
+[8:16:28 AM] [DAP] [Info] Starting debug session 355779fe-48fa-484f-a46e-eb00a152d3e3
+[8:16:28 AM] [DAP] [Info] ==> {"command":"initialize","arguments":{"clientID":"vscode","clientName":"Visual Studio Code","adapterID":"dart","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":true,"locale":"en","supportsProgressReporting":true,"supportsInvalidatedEvent":true,"supportsMemoryReferences":true,"supportsArgsCanBeInterpretedByShell":true,"supportsMemoryEvent":true,"supportsStartDebuggingRequest":true},"type":"request","seq":1}
+[8:16:29 AM] [DAP] [Info] <== {"seq":1,"type":"response","body":{"exceptionBreakpointFilters":[{"default":false,"filter":"All","label":"All Exceptions"},{"default":true,"filter":"Unhandled","label":"Uncaught Exceptions"}],"supportsClipboardContext":true,"supportsConditionalBreakpoints":true,"supportsConfigurationDoneRequest":true,"supportsDelayedStackTraceLoading":true,"supportsEvaluateForHovers":true,"supportsLogPoints":true,"supportsRestartFrame":true,"supportsRestartRequest":false,"supportsTerminateRequest":true,"supportsValueFormattingOptions":true},"command":"initialize","request_seq":1,"success":true}
+[8:16:29 AM] [DAP] [Info] ==> {"command":"launch","arguments":{"dartCodeDebugSessionID":"session-25003","type":"dart","request":"launch","program":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart","projectRootPath":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","cwd":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","name":"Flutter (SM N975F)","deviceId":"127.0.0.1:21503","deviceName":"SM N975F (android-x64)","toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"},"sendLogsToClient":false,"sendCustomProgressEvents":true,"allowAnsiColorOutput":true,"additionalProjectPaths":["C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"],"args":[],"vmAdditionalArgs":[],"toolArgs":["-d","127.0.0.1:21503","--devtools-server-address","http://127.0.0.1:9100/"],"vmServicePort":0,"dartSdkPath":"C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk","vmServiceLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt","maxLogLineLength":2000,"dartTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt","debugSdkLibraries":false,"debugExternalPackageLibraries":false,"showDartDeveloperLogs":true,"evaluateGettersInDebugViews":true,"showGettersInDebugViews":true,"evaluateToStringInDebugViews":true,"flutterSdkPath":"C:\\Users\\franc\\flutter","useInspectorNotificationsForWidgetErrors":true,"flutterRunLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_run.txt","flutterTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_test.txt","showMemoryUsage":false,"debuggerType":2,"__sessionId":"355779fe-48fa-484f-a46e-eb00a152d3e3"},"type":"request","seq":2}
+[8:16:29 AM] [DAP] [Info] <== {"seq":2,"type":"event","body":{},"event":"initialized"}
+[8:16:29 AM] [DAP] [Info] ==> {"command":"setExceptionBreakpoints","arguments":{"filters":["Unhandled"]},"type":"request","seq":3}
+[8:16:29 AM] [DAP] [Info] <== {"seq":3,"type":"response","body":{},"command":"setExceptionBreakpoints","request_seq":3,"success":true}
+[8:16:29 AM] [DAP] [Info] ==> {"command":"configurationDone","type":"request","seq":4}
+[8:16:29 AM] [DAP] [Info] <== {"seq":4,"type":"response","command":"configurationDone","request_seq":4,"success":true}
+[8:16:29 AM] [DAP] [Info] ==> {"command":"threads","type":"request","seq":5}
+[8:16:29 AM] [DAP] [Info] <== {"seq":5,"type":"event","body":{"message":"Launching…","progressId":"launch_1","title":"Flutter"},"event":"dart.progressStart"}
+[8:16:29 AM] [DAP] [Info] <== {"seq":6,"type":"response","command":"launch","request_seq":2,"success":true}
+[8:16:29 AM] [DAP] [Info] <== {"seq":7,"type":"response","body":{"threads":[]},"command":"threads","request_seq":5,"success":true}
+[8:16:30 AM] [DAP] [Info] <== {"seq":8,"type":"event","body":{"capabilities":{"supportsRestartRequest":true}},"event":"capabilities"}
+[8:16:30 AM] [DAP] [Info] <== {"seq":9,"type":"event","body":{"appId":"ed7051ee-083a-4eda-bc30-e4a403c1a586","deviceId":"127.0.0.1:21503","directory":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","supportsRestart":true,"launchMode":"run","mode":"debug"},"event":"flutter.appStart"}
+[8:16:30 AM] [DAP] [Info] <== {"seq":10,"type":"event","body":{"category":"console","output":"Launching lib\\main.dart on SM N975F in debug mode...\n"},"event":"output"}
+[8:16:39 AM] [DAP] [Info] <== {"seq":11,"type":"event","body":{"category":"console","output":"√  Built build\\app\\outputs\\flutter-apk\\app-debug.apk.\n"},"event":"output"}
+[8:16:40 AM] [DAP] [Info] ==> {"command":"terminate","arguments":{"restart":false},"type":"request","seq":6}
+[8:16:41 AM] [DAP] [Info] <== {"seq":12,"type":"event","body":{"category":"console","output":"Application finished.\n"},"event":"output"}
+[8:16:41 AM] [DAP] [Info] <== {"seq":13,"type":"event","body":{"output":"\nExited (-1).\n"},"event":"output"}
+[8:16:41 AM] [DAP] [Info] <== {"seq":14,"type":"event","body":{},"event":"terminated"}
+[8:16:41 AM] [DAP] [Info] <== {"seq":15,"type":"response","command":"terminate","request_seq":6,"success":true}
+[8:16:41 AM] [DAP] [Info] ==> {"command":"disconnect","arguments":{"restart":false},"type":"request","seq":7}
+[8:16:41 AM] [DAP] [Info] <== {"seq":16,"type":"response","command":"disconnect","request_seq":7,"success":true}
+[8:16:41 AM] [DAP] [Info] Stopping debug session 355779fe-48fa-484f-a46e-eb00a152d3e3
+[8:16:41 AM] [DAP] [Info] Debug session 355779fe-48fa-484f-a46e-eb00a152d3e3 errored: {}
+[8:16:41 AM] [DAP] [Info] Debug session 355779fe-48fa-484f-a46e-eb00a152d3e3 exit: code: 1, signal: undefined
+[8:16:44 AM] [DAP] [Info] Starting debug session e6a9abd2-31f3-4591-8a1c-254b5971bfa3
+[8:16:44 AM] [DAP] [Info] ==> {"command":"initialize","arguments":{"clientID":"vscode","clientName":"Visual Studio Code","adapterID":"dart","pathFormat":"path","linesStartAt1":true,"columnsStartAt1":true,"supportsVariableType":true,"supportsVariablePaging":true,"supportsRunInTerminalRequest":true,"locale":"en","supportsProgressReporting":true,"supportsInvalidatedEvent":true,"supportsMemoryReferences":true,"supportsArgsCanBeInterpretedByShell":true,"supportsMemoryEvent":true,"supportsStartDebuggingRequest":true},"type":"request","seq":1}
+[8:16:44 AM] [DAP] [Info] <== {"seq":1,"type":"response","body":{"exceptionBreakpointFilters":[{"default":false,"filter":"All","label":"All Exceptions"},{"default":true,"filter":"Unhandled","label":"Uncaught Exceptions"}],"supportsClipboardContext":true,"supportsConditionalBreakpoints":true,"supportsConfigurationDoneRequest":true,"supportsDelayedStackTraceLoading":true,"supportsEvaluateForHovers":true,"supportsLogPoints":true,"supportsRestartFrame":true,"supportsRestartRequest":false,"supportsTerminateRequest":true,"supportsValueFormattingOptions":true},"command":"initialize","request_seq":1,"success":true}
+[8:16:44 AM] [DAP] [Info] ==> {"command":"launch","arguments":{"dartCodeDebugSessionID":"session-ae527","type":"dart","request":"launch","program":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart","projectRootPath":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","cwd":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","name":"Flutter (SM N975F)","deviceId":"127.0.0.1:21503","deviceName":"SM N975F (android-x64)","toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"},"sendLogsToClient":false,"sendCustomProgressEvents":true,"allowAnsiColorOutput":true,"additionalProjectPaths":["C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"],"args":[],"vmAdditionalArgs":[],"toolArgs":["-d","127.0.0.1:21503","--devtools-server-address","http://127.0.0.1:9100/"],"vmServicePort":0,"dartSdkPath":"C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk","vmServiceLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt","maxLogLineLength":2000,"dartTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt","debugSdkLibraries":false,"debugExternalPackageLibraries":false,"showDartDeveloperLogs":true,"evaluateGettersInDebugViews":true,"showGettersInDebugViews":true,"evaluateToStringInDebugViews":true,"flutterSdkPath":"C:\\Users\\franc\\flutter","useInspectorNotificationsForWidgetErrors":true,"flutterRunLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_run.txt","flutterTestLogFile":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\flutter_test.txt","showMemoryUsage":false,"debuggerType":2,"__sessionId":"e6a9abd2-31f3-4591-8a1c-254b5971bfa3"},"type":"request","seq":2}
+[8:16:44 AM] [DAP] [Info] <== {"seq":2,"type":"event","body":{},"event":"initialized"}
+[8:16:44 AM] [DAP] [Info] ==> {"command":"setExceptionBreakpoints","arguments":{"filters":["Unhandled"]},"type":"request","seq":3}
+[8:16:44 AM] [DAP] [Info] <== {"seq":3,"type":"response","body":{},"command":"setExceptionBreakpoints","request_seq":3,"success":true}
+[8:16:44 AM] [DAP] [Info] ==> {"command":"configurationDone","type":"request","seq":4}
+[8:16:44 AM] [DAP] [Info] <== {"seq":4,"type":"response","command":"configurationDone","request_seq":4,"success":true}
+[8:16:44 AM] [DAP] [Info] ==> {"command":"threads","type":"request","seq":5}
+[8:16:44 AM] [DAP] [Info] <== {"seq":5,"type":"event","body":{"message":"Launching…","progressId":"launch_1","title":"Flutter"},"event":"dart.progressStart"}
+[8:16:44 AM] [DAP] [Info] <== {"seq":6,"type":"response","command":"launch","request_seq":2,"success":true}
+[8:16:44 AM] [DAP] [Info] <== {"seq":7,"type":"response","body":{"threads":[]},"command":"threads","request_seq":5,"success":true}
+[8:16:45 AM] [DAP] [Info] <== {"seq":8,"type":"event","body":{"capabilities":{"supportsRestartRequest":true}},"event":"capabilities"}
+[8:16:45 AM] [DAP] [Info] <== {"seq":9,"type":"event","body":{"appId":"c1497d60-8941-4b22-9f50-3e481744aed7","deviceId":"127.0.0.1:21503","directory":"C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo","supportsRestart":true,"launchMode":"run","mode":"debug"},"event":"flutter.appStart"}
+[8:16:46 AM] [DAP] [Info] <== {"seq":10,"type":"event","body":{"category":"console","output":"Launching lib\\main.dart on SM N975F in debug mode...\n"},"event":"output"}
+[8:16:49 AM] [DAP] [Info] <== {"seq":11,"type":"event","body":{"category":"console","output":"√  Built build\\app\\outputs\\flutter-apk\\app-debug.apk.\n"},"event":"output"}
+[8:16:58 AM] [DAP] [Info] <== {"seq":12,"type":"event","body":{"progressId":"launch_1"},"event":"dart.progressEnd"}
+[8:16:58 AM] [DAP] [Info] <== {"seq":13,"type":"event","body":{"output":"Connecting to VM Service at ws://127.0.0.1:64285/vMxavKF9iCE=/ws\n"},"event":"output"}
+[8:16:58 AM] [DAP] [Info] <== {"seq":14,"type":"event","body":{"vmServiceUri":"ws://127.0.0.1:64285/vMxavKF9iCE=/ws"},"event":"dart.debuggerUris"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":15,"type":"event","body":{"reason":"started","threadId":1},"event":"thread"}
+[8:16:59 AM] [DAP] [Info] ==> {"command":"threads","type":"request","seq":6}
+[8:16:59 AM] [DAP] [Info] <== {"seq":16,"type":"response","body":{"threads":[{"id":1,"name":"main"}]},"command":"threads","request_seq":6,"success":true}
+[8:16:59 AM] [DAP] [Info] <== {"seq":17,"type":"event","body":{},"event":"flutter.appStarted"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":18,"type":"event","body":{"service":"reloadSources","method":"s0.reloadSources"},"event":"dart.serviceRegistered"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":19,"type":"event","body":{"service":"hotRestart","method":"s0.hotRestart"},"event":"dart.serviceRegistered"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":20,"type":"event","body":{"service":"flutterVersion","method":"s0.flutterVersion"},"event":"dart.serviceRegistered"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":21,"type":"event","body":{"service":"compileExpression","method":"s0.compileExpression"},"event":"dart.serviceRegistered"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":22,"type":"event","body":{"service":"flutterMemoryInfo","method":"s0.flutterMemoryInfo"},"event":"dart.serviceRegistered"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":23,"type":"event","body":{"service":"flutterGetSkSL","method":"s0.flutterGetSkSL"},"event":"dart.serviceRegistered"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":24,"type":"event","body":{"service":"launchDevTools","method":"s2.launchDevTools"},"event":"dart.serviceRegistered"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":25,"type":"event","body":{"extensionRPC":"ext.flutter.reassemble","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":26,"type":"event","body":{"extensionRPC":"ext.flutter.exit","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":27,"type":"event","body":{"extensionRPC":"ext.flutter.connectedVmServiceUri","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":28,"type":"event","body":{"extensionRPC":"ext.flutter.activeDevToolsServerAddress","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":29,"type":"event","body":{"extensionRPC":"ext.flutter.platformOverride","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":30,"type":"event","body":{"extensionRPC":"ext.flutter.brightnessOverride","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":31,"type":"event","body":{"extensionRPC":"ext.flutter.timeDilation","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":32,"type":"event","body":{"extensionRPC":"ext.flutter.evict","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":33,"type":"event","body":{"extensionRPC":"ext.flutter.profilePlatformChannels","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":34,"type":"event","body":{"extensionRPC":"ext.flutter.invertOversizedImages","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":35,"type":"event","body":{"extensionRPC":"ext.flutter.debugPaint","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":36,"type":"event","body":{"extensionRPC":"ext.flutter.debugPaintBaselinesEnabled","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":37,"type":"event","body":{"extensionRPC":"ext.flutter.repaintRainbow","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":38,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpLayerTree","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":39,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisableClipLayers","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":40,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisablePhysicalShapeLayers","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":41,"type":"event","body":{"extensionRPC":"ext.flutter.debugDisableOpacityLayers","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":42,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpRenderTree","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":43,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpSemanticsTreeInTraversalOrder","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":44,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpSemanticsTreeInInverseHitTestOrder","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":45,"type":"event","body":{"extensionRPC":"ext.flutter.profileRenderObjectPaints","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":46,"type":"event","body":{"extensionRPC":"ext.flutter.profileRenderObjectLayouts","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":47,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpApp","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":48,"type":"event","body":{"extensionRPC":"ext.flutter.debugDumpFocusTree","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":49,"type":"event","body":{"extensionRPC":"ext.flutter.showPerformanceOverlay","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":50,"type":"event","body":{"extensionRPC":"ext.flutter.didSendFirstFrameEvent","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":51,"type":"event","body":{"extensionRPC":"ext.flutter.didSendFirstFrameRasterizedEvent","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":52,"type":"event","body":{"extensionRPC":"ext.flutter.profileWidgetBuilds","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":53,"type":"event","body":{"extensionRPC":"ext.flutter.profileUserWidgetBuilds","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":54,"type":"event","body":{"extensionRPC":"ext.flutter.debugAllowBanner","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":55,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.structuredErrors","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":56,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.show","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":57,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.trackRebuildDirtyWidgets","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":58,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.trackRepaintWidgets","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":59,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeAllGroups","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":60,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeGroup","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":61,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.isWidgetTreeReady","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":62,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.disposeId","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":63,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setPubRootDirectories","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":64,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.addPubRootDirectories","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":65,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.removePubRootDirectories","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":66,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getPubRootDirectories","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":67,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setSelectionById","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":68,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getParentChain","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":69,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getProperties","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":70,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildren","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":71,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildrenSummaryTree","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":72,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getChildrenDetailsSubtree","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":73,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidget","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":74,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidgetSummaryTree","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":75,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getRootWidgetSummaryTreeWithPreviews","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":76,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getDetailsSubtree","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":77,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getSelectedWidget","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":78,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getSelectedSummaryWidget","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":79,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.isWidgetCreationTracked","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":80,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.screenshot","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":81,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.getLayoutExplorerNode","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":82,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexFit","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":83,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexFactor","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] <== {"seq":84,"type":"event","body":{"extensionRPC":"ext.flutter.inspector.setFlexProperties","isolateId":"isolates/2941043516515471"},"event":"dart.serviceExtensionAdded"}
+[8:16:59 AM] [DAP] [Info] ==> {"command":"callService","arguments":{"method":"ext.flutter.inspector.addPubRootDirectories","params":{"isolateId":"isolates/2941043516515471","arg0":"file:///C:/Users/franc/OneDrive/Desktop/Proyectos/movil/apptodo"}},"type":"request","seq":7}
+[8:17:00 AM] [DAP] [Info] <== {"seq":85,"type":"event","body":{"extension":"ext.flutter.activeDevToolsServerAddress","value":"http://127.0.0.1:9100"},"event":"flutter.serviceExtensionStateChanged"}
+[8:17:00 AM] [DAP] [Info] <== {"seq":86,"type":"event","body":{"extension":"ext.flutter.connectedVmServiceUri","value":"http://127.0.0.1:64285/vMxavKF9iCE=/"},"event":"flutter.serviceExtensionStateChanged"}
+[8:17:00 AM] [DAP] [Info] <== {"seq":87,"type":"response","body":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.addPubRootDirectories"},"command":"callService","request_seq":7,"success":true}
+[8:33:20 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":8}
+[8:33:20 AM] [DAP] [Info] <== {"seq":88,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_2","title":"Flutter"},"event":"dart.progressStart"}
+[8:33:21 AM] [DAP] [Info] <== {"seq":89,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 685ms (compile: 15 ms, reload: 235 ms, reassemble: 222 ms).\n"},"event":"output"}
+[8:33:21 AM] [DAP] [Info] <== {"seq":90,"type":"event","body":{"progressId":"hotReload_2"},"event":"dart.progressEnd"}
+[8:33:21 AM] [DAP] [Info] <== {"seq":91,"type":"response","command":"hotReload","request_seq":8,"success":true}
+[8:33:34 AM] [DAP] [Info] <== {"seq":92,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[8:34:28 AM] [DAP] [Info] <== {"seq":93,"type":"event","body":{"category":"stdout","output":"E/EGL_adreno(23138): [getAttribValue] Bad attribute idx\n"},"event":"output"}
+[8:34:28 AM] [DAP] [Info] <== {"seq":94,"type":"event","body":{"category":"stdout","output":"D/EGL_adreno(23138): eglGetConfigAttrib: bad attrib 0x3339\n"},"event":"output"}
+[8:34:28 AM] [DAP] [Info] <== {"seq":95,"type":"event","body":{"category":"stdout","output":"E/EGL_adreno(23138): [getAttribValue] Bad attribute idx\n"},"event":"output"}
+[8:34:28 AM] [DAP] [Info] <== {"seq":96,"type":"event","body":{"category":"stdout","output":"D/EGL_adreno(23138): eglGetConfigAttrib: bad attrib 0x3339\n"},"event":"output"}
+[8:34:28 AM] [DAP] [Info] <== {"seq":97,"type":"event","body":{"category":"stdout","output":"E/EGL_adreno(23138): [getAttribValue] Bad attribute idx\n"},"event":"output"}
+[8:34:28 AM] [DAP] [Info] <== {"seq":98,"type":"event","body":{"category":"stdout","output":"D/EGL_adreno(23138): eglGetConfigAttrib: bad attrib 0x3339\n"},"event":"output"}
+[8:35:39 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":9}
+[8:35:39 AM] [DAP] [Info] <== {"seq":99,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_3","title":"Flutter"},"event":"dart.progressStart"}
+[8:35:39 AM] [DAP] [Info] <== {"seq":100,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 438ms (compile: 13 ms, reload: 188 ms, reassemble: 169 ms).\n"},"event":"output"}
+[8:35:39 AM] [DAP] [Info] <== {"seq":101,"type":"event","body":{"progressId":"hotReload_3"},"event":"dart.progressEnd"}
+[8:35:39 AM] [DAP] [Info] <== {"seq":102,"type":"response","command":"hotReload","request_seq":9,"success":true}
+[8:44:26 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":10}
+[8:44:26 AM] [DAP] [Info] <== {"seq":103,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_4","title":"Flutter"},"event":"dart.progressStart"}
+[8:44:26 AM] [DAP] [Info] <== {"seq":104,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 475ms (compile: 14 ms, reload: 187 ms, reassemble: 200 ms).\n"},"event":"output"}
+[8:44:26 AM] [DAP] [Info] <== {"seq":105,"type":"event","body":{"progressId":"hotReload_4"},"event":"dart.progressEnd"}
+[8:44:26 AM] [DAP] [Info] <== {"seq":106,"type":"response","command":"hotReload","request_seq":10,"success":true}
+[8:45:55 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":11}
+[8:45:55 AM] [DAP] [Info] <== {"seq":107,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_5","title":"Flutter"},"event":"dart.progressStart"}
+[8:45:56 AM] [DAP] [Info] <== {"seq":108,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 512ms (compile: 14 ms, reload: 206 ms, reassemble: 189 ms).\n"},"event":"output"}
+[8:45:56 AM] [DAP] [Info] <== {"seq":109,"type":"event","body":{"progressId":"hotReload_5"},"event":"dart.progressEnd"}
+[8:45:56 AM] [DAP] [Info] <== {"seq":110,"type":"response","command":"hotReload","request_seq":11,"success":true}
+[8:55:29 AM] [DAP] [Info] <== {"seq":111,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[8:55:50 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":12}
+[8:55:50 AM] [DAP] [Info] <== {"seq":112,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_6","title":"Flutter"},"event":"dart.progressStart"}
+[8:55:51 AM] [DAP] [Info] <== {"seq":113,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 482ms (compile: 15 ms, reload: 205 ms, reassemble: 194 ms).\n"},"event":"output"}
+[8:55:51 AM] [DAP] [Info] <== {"seq":114,"type":"event","body":{"progressId":"hotReload_6"},"event":"dart.progressEnd"}
+[8:55:51 AM] [DAP] [Info] <== {"seq":115,"type":"response","command":"hotReload","request_seq":12,"success":true}
+[8:56:26 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":13}
+[8:56:26 AM] [DAP] [Info] <== {"seq":116,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_7","title":"Flutter"},"event":"dart.progressStart"}
+[8:56:27 AM] [DAP] [Info] <== {"seq":117,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 506ms (compile: 15 ms, reload: 204 ms, reassemble: 221 ms).\n"},"event":"output"}
+[8:56:27 AM] [DAP] [Info] <== {"seq":118,"type":"event","body":{"progressId":"hotReload_7"},"event":"dart.progressEnd"}
+[8:56:27 AM] [DAP] [Info] <== {"seq":119,"type":"response","command":"hotReload","request_seq":13,"success":true}
+[8:56:38 AM] [DAP] [Info] <== {"seq":120,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[8:56:48 AM] [DAP] [Info] <== {"seq":121,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[8:57:02 AM] [DAP] [Info] <== {"seq":122,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[8:57:07 AM] [DAP] [Info] <== {"seq":123,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[8:59:01 AM] [DAP] [Info] <== {"seq":124,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[8:59:06 AM] [DAP] [Info] <== {"seq":125,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[9:00:48 AM] [DAP] [Info] <== {"seq":126,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[9:00:53 AM] [DAP] [Info] <== {"seq":127,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[9:01:03 AM] [DAP] [Info] <== {"seq":128,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[9:01:03 AM] [DAP] [Info] <== {"seq":129,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[9:04:17 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":14}
+[9:04:17 AM] [DAP] [Info] <== {"seq":130,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_8","title":"Flutter"},"event":"dart.progressStart"}
+[9:04:18 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":15}
+[9:04:18 AM] [DAP] [Info] <== {"seq":131,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_9","title":"Flutter"},"event":"dart.progressStart"}
+[9:04:18 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":16}
+[9:04:18 AM] [DAP] [Info] <== {"seq":132,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_10","title":"Flutter"},"event":"dart.progressStart"}
+[9:04:18 AM] [DAP] [Info] <== {"seq":133,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 508ms (compile: 15 ms, reload: 225 ms, reassemble: 193 ms).\n"},"event":"output"}
+[9:04:18 AM] [DAP] [Info] <== {"seq":134,"type":"event","body":{"progressId":"hotReload_8"},"event":"dart.progressEnd"}
+[9:04:18 AM] [DAP] [Info] <== {"seq":135,"type":"response","command":"hotReload","request_seq":14,"success":true}
+[9:04:18 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":17}
+[9:04:18 AM] [DAP] [Info] <== {"seq":136,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_11","title":"Flutter"},"event":"dart.progressStart"}
+[9:04:18 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":18}
+[9:04:18 AM] [DAP] [Info] <== {"seq":137,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_12","title":"Flutter"},"event":"dart.progressStart"}
+[9:04:18 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":19}
+[9:04:18 AM] [DAP] [Info] <== {"seq":138,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_13","title":"Flutter"},"event":"dart.progressStart"}
+[9:04:18 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":20}
+[9:04:18 AM] [DAP] [Info] <== {"seq":139,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_14","title":"Flutter"},"event":"dart.progressStart"}
+[9:04:18 AM] [DAP] [Info] <== {"seq":140,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 509ms (compile: 21 ms, reload: 213 ms, reassemble: 197 ms).\n"},"event":"output"}
+[9:04:18 AM] [DAP] [Info] <== {"seq":141,"type":"event","body":{"progressId":"hotReload_9"},"event":"dart.progressEnd"}
+[9:04:18 AM] [DAP] [Info] <== {"seq":142,"type":"response","command":"hotReload","request_seq":15,"success":true}
+[9:04:19 AM] [DAP] [Info] <== {"seq":143,"type":"event","body":{"category":"stdout","output":"Reloaded 0 libraries in 165ms (compile: 8 ms, reload: 0 ms, reassemble: 78 ms).\n"},"event":"output"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":144,"type":"event","body":{"progressId":"hotReload_10"},"event":"dart.progressEnd"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":145,"type":"response","command":"hotReload","request_seq":16,"success":true}
+[9:04:19 AM] [DAP] [Info] <== {"seq":146,"type":"event","body":{"category":"stdout","output":"Reloaded 0 libraries in 126ms (compile: 7 ms, reload: 0 ms, reassemble: 53 ms).\n"},"event":"output"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":147,"type":"event","body":{"progressId":"hotReload_11"},"event":"dart.progressEnd"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":148,"type":"response","command":"hotReload","request_seq":17,"success":true}
+[9:04:19 AM] [DAP] [Info] <== {"seq":149,"type":"event","body":{"category":"stdout","output":"Reloaded 0 libraries in 109ms (compile: 8 ms, reload: 0 ms, reassemble: 41 ms).\n"},"event":"output"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":150,"type":"event","body":{"progressId":"hotReload_12"},"event":"dart.progressEnd"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":151,"type":"response","command":"hotReload","request_seq":18,"success":true}
+[9:04:19 AM] [DAP] [Info] <== {"seq":152,"type":"event","body":{"category":"stdout","output":"Reloaded 0 libraries in 133ms (compile: 7 ms, reload: 0 ms, reassemble: 60 ms).\n"},"event":"output"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":153,"type":"event","body":{"progressId":"hotReload_13"},"event":"dart.progressEnd"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":154,"type":"response","command":"hotReload","request_seq":19,"success":true}
+[9:04:19 AM] [DAP] [Info] <== {"seq":155,"type":"event","body":{"category":"stdout","output":"Reloaded 0 libraries in 151ms (compile: 8 ms, reload: 0 ms, reassemble: 44 ms).\n"},"event":"output"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":156,"type":"event","body":{"progressId":"hotReload_14"},"event":"dart.progressEnd"}
+[9:04:19 AM] [DAP] [Info] <== {"seq":157,"type":"response","command":"hotReload","request_seq":20,"success":true}
+[9:04:26 AM] [DAP] [Info] <== {"seq":158,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[9:05:44 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":21}
+[9:05:44 AM] [DAP] [Info] <== {"seq":159,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_15","title":"Flutter"},"event":"dart.progressStart"}
+[9:05:44 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":22}
+[9:05:44 AM] [DAP] [Info] <== {"seq":160,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_16","title":"Flutter"},"event":"dart.progressStart"}
+[9:05:44 AM] [DAP] [Info] ==> {"command":"hotReload","arguments":{"debounce":true,"onlyFlutter":true,"reason":"save"},"type":"request","seq":23}
+[9:05:44 AM] [DAP] [Info] <== {"seq":161,"type":"event","body":{"message":"Hot reloading…","progressId":"hotReload_17","title":"Flutter"},"event":"dart.progressStart"}
+[9:05:45 AM] [DAP] [Info] <== {"seq":162,"type":"event","body":{"category":"stdout","output":"Reloaded 1 of 774 libraries in 537ms (compile: 11 ms, reload: 219 ms, reassemble: 240 ms).\n"},"event":"output"}
+[9:05:45 AM] [DAP] [Info] <== {"seq":163,"type":"event","body":{"progressId":"hotReload_15"},"event":"dart.progressEnd"}
+[9:05:45 AM] [DAP] [Info] <== {"seq":164,"type":"response","command":"hotReload","request_seq":21,"success":true}
+[9:05:45 AM] [DAP] [Info] <== {"seq":165,"type":"event","body":{"category":"stdout","output":"Reloaded 0 libraries in 203ms (compile: 8 ms, reload: 0 ms, reassemble: 126 ms).\n"},"event":"output"}
+[9:05:45 AM] [DAP] [Info] <== {"seq":166,"type":"event","body":{"progressId":"hotReload_16"},"event":"dart.progressEnd"}
+[9:05:45 AM] [DAP] [Info] <== {"seq":167,"type":"response","command":"hotReload","request_seq":22,"success":true}
+[9:05:45 AM] [DAP] [Info] <== {"seq":168,"type":"event","body":{"category":"stdout","output":"Reloaded 0 libraries in 135ms (compile: 9 ms, reload: 0 ms, reassemble: 58 ms).\n"},"event":"output"}
+[9:05:45 AM] [DAP] [Info] <== {"seq":169,"type":"event","body":{"progressId":"hotReload_17"},"event":"dart.progressEnd"}
+[9:05:45 AM] [DAP] [Info] <== {"seq":170,"type":"response","command":"hotReload","request_seq":23,"success":true}
+[9:05:47 AM] [DAP] [Info] <== {"seq":171,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[9:05:53 AM] [DAP] [Info] <== {"seq":172,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}
+[9:05:59 AM] [DAP] [Info] <== {"seq":173,"type":"event","body":{"category":"stdout","output":"I/flutter (23138): Dato Agregado\n"},"event":"output"}

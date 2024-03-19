@@ -1,0 +1,527 @@
+!! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.84.0
+Flutter extension: 3.84.0 (not activated)
+
+App: Visual Studio Code
+App Host: desktop
+Version: win 1.87.2
+
+
+Logging Categories:
+    General
+
+Tue Mar 19 2024 [06:39:21 GMT-0500 (Colombia Standard Time)] Log file started
+[6:39:21 AM] [General] [Info] Searching for SDKs...
+[6:39:21 AM] [General] [Info] Environment PATH:
+[6:39:21 AM] [General] [Info]     C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe
+[6:39:21 AM] [General] [Info]     C:\Program Files\Common Files\Oracle\Java\javapath
+[6:39:21 AM] [General] [Info]     C:\WINDOWS\system32
+[6:39:21 AM] [General] [Info]     C:\WINDOWS
+[6:39:21 AM] [General] [Info]     C:\WINDOWS\System32\Wbem
+[6:39:21 AM] [General] [Info]     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[6:39:21 AM] [General] [Info]     C:\WINDOWS\System32\OpenSSH\
+[6:39:21 AM] [General] [Info]     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[6:39:21 AM] [General] [Info]     C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+[6:39:21 AM] [General] [Info]     C:\Program Files\Java\jdk-17\bin
+[6:39:21 AM] [General] [Info]     C:\Program Files\nodejs\
+[6:39:21 AM] [General] [Info]     C:\Program Files\Microsoft SQL Server\150\Tools\Binn\
+[6:39:21 AM] [General] [Info]     C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+[6:39:21 AM] [General] [Info]     C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\
+[6:39:21 AM] [General] [Info]     C:\Program Files\Microsoft SQL Server\160\Tools\Binn\
+[6:39:21 AM] [General] [Info]     C:\Program Files\Microsoft SQL Server\160\DTS\Binn\
+[6:39:21 AM] [General] [Info]     C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\
+[6:39:21 AM] [General] [Info]     C:\Program Files\Git\cmd
+[6:39:21 AM] [General] [Info]     C:\Users\franc\flutter\bin
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Local\Microsoft\WindowsApps
+[6:39:21 AM] [General] [Info]     C:\Users\franc\source\repos
+[6:39:21 AM] [General] [Info]     C:\Users\franc\scoop\apps\gcc\current\bin
+[6:39:21 AM] [General] [Info]     C:\Users\franc\scoop\shims
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Local\Programs\Python\Python311\Scripts\
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Local\Programs\Python\Python311\
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Local\Microsoft\WindowsApps
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Local\Programs\Microsoft VS Code\bin
+[6:39:21 AM] [General] [Info]     C:\xampp\php
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Roaming\npm
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Local\GitHubDesktop\bin
+[6:39:21 AM] [General] [Info]     C:\Program Files\Python311
+[6:39:21 AM] [General] [Info]     C:\Program Files\Azure Data Studio\bin
+[6:39:21 AM] [General] [Info]     C:\Users\franc\composer
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Roaming\Composer\vendor\bin
+[6:39:21 AM] [General] [Info]     C:\Users\franc\AppData\Local\Programs\oh-my-posh\bin
+[6:39:21 AM] [General] [Info]     C:\Program Files\JetBrains\JetBrains Rider 2023.3.4\bin
+[6:39:21 AM] [General] [Info] Took 57ms to search for projects (5 levels)
+[6:39:21 AM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
+[6:39:21 AM] [General] [Info] Found Flutter project at C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo:
+			Mobile? true
+			Web? false
+			Create Trigger? false
+			Flutter Repo? false
+[6:39:21 AM] [General] [Info] Searching for flutter.bat
+[6:39:21 AM] [General] [Info]     Looking for flutter.bat in:
+[6:39:21 AM] [General] [Info]         C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[6:39:21 AM] [General] [Info]         C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo -> C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\
+[6:39:21 AM] [General] [Info]         C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\.flutter
+[6:39:21 AM] [General] [Info]         C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\.flutter -> C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\.flutter\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\vendor\flutter
+[6:39:21 AM] [General] [Info]         C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\vendor\flutter -> C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\vendor\flutter\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter-sdk
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter-sdk -> C:\Users\franc\flutter-sdk\bin
+[6:39:21 AM] [General] [Info]         /google/flutter
+[6:39:21 AM] [General] [Info]         /google/flutter -> \google\flutter\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe
+[6:39:21 AM] [General] [Info]         C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe -> C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[6:39:21 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath -> C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\system32
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\system32 -> C:\WINDOWS\system32\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS
+[6:39:21 AM] [General] [Info]         C:\WINDOWS -> C:\WINDOWS\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\Wbem
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\Wbem -> C:\WINDOWS\System32\Wbem\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\ -> C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\OpenSSH\
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\OpenSSH\ -> C:\WINDOWS\System32\OpenSSH\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common -> C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+[6:39:21 AM] [General] [Info]         C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR -> C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Java\jdk-17\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\nodejs\
+[6:39:21 AM] [General] [Info]         C:\Program Files\nodejs\ -> C:\Program Files\nodejs\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\150\Tools\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ -> C:\Program Files\Microsoft SQL Server\150\Tools\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ -> C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\ -> C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\160\Tools\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\160\Tools\Binn\ -> C:\Program Files\Microsoft SQL Server\160\Tools\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\160\DTS\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\160\DTS\Binn\ -> C:\Program Files\Microsoft SQL Server\160\DTS\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\ -> C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Git\cmd
+[6:39:21 AM] [General] [Info]         C:\Program Files\Git\cmd -> C:\Program Files\Git\cmd\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Microsoft\WindowsApps
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Microsoft\WindowsApps -> C:\Users\franc\AppData\Local\Microsoft\WindowsApps\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\source\repos
+[6:39:21 AM] [General] [Info]         C:\Users\franc\source\repos -> C:\Users\franc\source\repos\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\scoop\apps\gcc\current\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\scoop\shims
+[6:39:21 AM] [General] [Info]         C:\Users\franc\scoop\shims -> C:\Users\franc\scoop\shims\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Python\Python311\Scripts\
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Python\Python311\Scripts\ -> C:\Users\franc\AppData\Local\Programs\Python\Python311\Scripts\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Python\Python311\
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Python\Python311\ -> C:\Users\franc\AppData\Local\Programs\Python\Python311\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Microsoft\WindowsApps
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Microsoft\WindowsApps -> C:\Users\franc\AppData\Local\Microsoft\WindowsApps\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Microsoft VS Code\bin
+[6:39:21 AM] [General] [Info]         C:\xampp\php
+[6:39:21 AM] [General] [Info]         C:\xampp\php -> C:\xampp\php\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Roaming\npm
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Roaming\npm -> C:\Users\franc\AppData\Roaming\npm\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\GitHubDesktop\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Python311
+[6:39:21 AM] [General] [Info]         C:\Program Files\Python311 -> C:\Program Files\Python311\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Azure Data Studio\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\composer
+[6:39:21 AM] [General] [Info]         C:\Users\franc\composer -> C:\Users\franc\composer\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Roaming\Composer\vendor\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\oh-my-posh\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\JetBrains\JetBrains Rider 2023.3.4\bin
+[6:39:21 AM] [General] [Info]     Found at:
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin
+[6:39:21 AM] [General] [Info]     Candidate paths to be post-filtered:
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\ -> C:\Users\franc\flutter
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin -> C:\Users\franc\flutter
+[6:39:21 AM] [General] [Info]     Found at C:\Users\franc\flutter\bin\ -> C:\Users\franc\flutter
+[6:39:21 AM] [General] [Info]     Returning SDK path C:\Users\franc\flutter for flutter.bat
+[6:39:21 AM] [General] [Info] Searching for dart.exe
+[6:39:21 AM] [General] [Info]     Looking for dart.exe in:
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\cache\dart-sdk
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\cache\dart-sdk -> C:\Users\franc\flutter\bin\cache\dart-sdk\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe
+[6:39:21 AM] [General] [Info]         C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe -> C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.1.0_x64__8wekyb3d8bbwe\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[6:39:21 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath -> C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\system32
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\system32 -> C:\WINDOWS\system32\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS
+[6:39:21 AM] [General] [Info]         C:\WINDOWS -> C:\WINDOWS\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\Wbem
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\Wbem -> C:\WINDOWS\System32\Wbem\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\WindowsPowerShell\v1.0\ -> C:\WINDOWS\System32\WindowsPowerShell\v1.0\bin
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\OpenSSH\
+[6:39:21 AM] [General] [Info]         C:\WINDOWS\System32\OpenSSH\ -> C:\WINDOWS\System32\OpenSSH\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common -> C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+[6:39:21 AM] [General] [Info]         C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR -> C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Java\jdk-17\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\nodejs\
+[6:39:21 AM] [General] [Info]         C:\Program Files\nodejs\ -> C:\Program Files\nodejs\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\150\Tools\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ -> C:\Program Files\Microsoft SQL Server\150\Tools\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ -> C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\ -> C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\160\Tools\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\160\Tools\Binn\ -> C:\Program Files\Microsoft SQL Server\160\Tools\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\160\DTS\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files\Microsoft SQL Server\160\DTS\Binn\ -> C:\Program Files\Microsoft SQL Server\160\DTS\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\
+[6:39:21 AM] [General] [Info]         C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\ -> C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Git\cmd
+[6:39:21 AM] [General] [Info]         C:\Program Files\Git\cmd -> C:\Program Files\Git\cmd\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Microsoft\WindowsApps
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Microsoft\WindowsApps -> C:\Users\franc\AppData\Local\Microsoft\WindowsApps\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\source\repos
+[6:39:21 AM] [General] [Info]         C:\Users\franc\source\repos -> C:\Users\franc\source\repos\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\scoop\apps\gcc\current\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\scoop\shims
+[6:39:21 AM] [General] [Info]         C:\Users\franc\scoop\shims -> C:\Users\franc\scoop\shims\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Python\Python311\Scripts\
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Python\Python311\Scripts\ -> C:\Users\franc\AppData\Local\Programs\Python\Python311\Scripts\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Python\Python311\
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Python\Python311\ -> C:\Users\franc\AppData\Local\Programs\Python\Python311\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Microsoft\WindowsApps
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Microsoft\WindowsApps -> C:\Users\franc\AppData\Local\Microsoft\WindowsApps\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\Microsoft VS Code\bin
+[6:39:21 AM] [General] [Info]         C:\xampp\php
+[6:39:21 AM] [General] [Info]         C:\xampp\php -> C:\xampp\php\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Roaming\npm
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Roaming\npm -> C:\Users\franc\AppData\Roaming\npm\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\GitHubDesktop\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Python311
+[6:39:21 AM] [General] [Info]         C:\Program Files\Python311 -> C:\Program Files\Python311\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\Azure Data Studio\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\composer
+[6:39:21 AM] [General] [Info]         C:\Users\franc\composer -> C:\Users\franc\composer\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Roaming\Composer\vendor\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\AppData\Local\Programs\oh-my-posh\bin
+[6:39:21 AM] [General] [Info]         C:\Program Files\JetBrains\JetBrains Rider 2023.3.4\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\cache\dart-sdk
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\cache\dart-sdk -> C:\Users\franc\flutter\bin\cache\dart-sdk\bin
+[6:39:21 AM] [General] [Info]     Found at:
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\cache\dart-sdk -> C:\Users\franc\flutter\bin\cache\dart-sdk\bin
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\cache\dart-sdk -> C:\Users\franc\flutter\bin\cache\dart-sdk\bin
+[6:39:21 AM] [General] [Info]     Candidate paths to be post-filtered:
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\cache\dart-sdk
+[6:39:21 AM] [General] [Info]         C:\Users\franc\flutter\bin\cache\dart-sdk
+[6:39:21 AM] [General] [Info]     Found at C:\Users\franc\flutter\bin\cache\dart-sdk
+[6:39:21 AM] [General] [Info]     Returning SDK path C:\Users\franc\flutter\bin\cache\dart-sdk for dart.exe
+[6:39:21 AM] [General] [Info] Experiment random number is 6 for experiment 'sdkDaps'. Experiment is enabled for <= 100
+[6:39:21 AM] [General] [Info] Experiment 'sdkDaps' is activating (not first time)
+[6:39:21 AM] [General] [Info] Experiment random number is 6 for experiment 'sdkDaps'. Experiment is enabled for <= 100
+[6:39:21 AM] [General] [Info] Experiment 'sdkDaps' is activating (not first time)
+[6:39:21 AM] [General] [Info] Experiment random number is 6 for experiment 'sdkDaps'. Experiment is enabled for <= 10
+[6:39:21 AM] [General] [Info] Experiment 'sdkDaps' is activating (not first time)
+[6:39:21 AM] [General] [Info] !! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.84.0
+Flutter extension: 3.84.0 (not activated)
+
+App: Visual Studio Code
+App Host: desktop
+Version: win 1.87.2
+
+Workspace type: Flutter (LSP)
+
+Dart (3.3.1): C:\Users\franc\flutter\bin\cache\dart-sdk
+Flutter (3.19.3): C:\Users\franc\flutter (No device)
+[6:39:21 AM] [General] [Info] Returning cached results for project search
+[6:39:21 AM] [General] [Info] Checking 1 projects for supported platforms
+[6:39:21 AM] [General] [Info] Returning cached results for project search
+[6:39:21 AM] [General] [Info] Activating Flutter extension for Flutter project...
+[6:39:21 AM] [General] [Info] Version last used for Pub is 3.3.1 (3.3.0), current is 3.3.1 (3.3.0)
+[6:39:21 AM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[6:39:22 AM] [General] [Info] Loaded 20000 package names from vscode-userdata:/c%3A/Users/franc/AppData/Roaming/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[6:39:22 AM] [General] [Info] !! ⚠️ PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING ⚠️ !!
+Dart Code extension: 3.84.0
+Flutter extension: 3.84.0 (activated)
+
+App: Visual Studio Code
+App Host: desktop
+Version: win 1.87.2
+
+Workspace type: Flutter (LSP)
+
+Dart (3.3.1): C:\Users\franc\flutter\bin\cache\dart-sdk
+Flutter (3.19.3): C:\Users\franc\flutter (No device)
+[6:39:23 AM] [General] [Info] Supported platforms for the workspace are web, android, ios, linux, macos, windows
+[6:39:23 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:23 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:23 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:23 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:24 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:24 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:24 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:24 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:24 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[6:39:42 AM] [General] [Info] Returning cached results for project search
+[6:52:27 AM] [General] [Info] Pubspec C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\pubspec.yaml was modified
+[6:52:30 AM] [General] [Info] Pubspec C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\pubspec.yaml was modified
+[6:52:37 AM] [General] [Info] Pubspec C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\pubspec.yaml was modified
+[6:52:37 AM] [General] [Info] Pubspec C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\pubspec.yaml was modified
+[6:52:47 AM] [General] [Info] Took 17ms to search for projects (5 levels)
+[6:52:47 AM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[6:52:47 AM] [General] [Info] Version last used for Pub is 3.3.1 (3.3.0), current is 3.3.1 (3.3.0)
+[6:52:47 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo (get: true, upgrade: false, reason: pubspec.yaml was modified (Tue Mar 19 2024 06:52:37 GMT-0500 (Colombia Standard Time)) more recently than pubspec.lock (Tue Mar 19 2024 06:28:20 GMT-0500 (Colombia Standard Time)))
+[6:53:10 AM] [General] [Info] Starting debug session...
+[6:53:10 AM] [General] [Info]     workspace: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[6:53:10 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[6:53:10 AM] [General] [Info] Using open file as entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\lib\main.dart
+[6:53:10 AM] [General] [Info] Using workspace as cwd: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[6:53:10 AM] [General] [Info] Detected launch project as Flutter
+[6:53:10 AM] [General] [Info] Using Flutter debug adapter for this session
+[6:53:10 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[6:53:10 AM] [General] [Info] Checking for errors before launching
+[6:53:10 AM] [General] [Info] Debug session starting...
+    {
+        "dartCodeDebugSessionID": "session-88753",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart",
+        "projectRootPath": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo",
+        "cwd": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo",
+        "name": "Flutter (SM N975F)",
+        "deviceId": "127.0.0.1:21503",
+        "deviceName": "SM N975F (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code",
+            "FLUTTER_ROOT": "C:\\Users\\franc\\flutter"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "127.0.0.1:21503",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "showGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\franc\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\f…
+[6:53:10 AM] [General] [Info] Using flutter debugger for Flutter
+[6:53:10 AM] [General] [Info] SDK DAP setting is true, set by sdkDaps experiment
+[6:53:10 AM] [General] [Info] Running SDK DAP Dart VM in undefined: C:\Users\franc\flutter\bin\flutter.bat debug_adapter and options {"env":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"}}
+[6:53:10 AM] [General] [Info] Did not find session fd456e01-5a19-445e-b396-0f41eab80870 to handle dart.progressStart. There were 0 sessions:
+[6:53:10 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[6:53:10 AM] [General] [Info] Processing delayed event dart.progressStart for session fd456e01-5a19-445e-b396-0f41eab80870
+[8:00:52 AM] [General] [Info] Starting debug session...
+[8:00:52 AM] [General] [Info]     workspace: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:00:52 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:00:52 AM] [General] [Info] Using found common entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\lib\main.dart
+[8:00:52 AM] [General] [Info] Using workspace as cwd: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:00:52 AM] [General] [Info] Detected launch project as Flutter
+[8:00:52 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:00:52 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:00:52 AM] [General] [Info] Checking for errors before launching
+[8:00:52 AM] [General] [Warn] Project has errors, prompting user
+[8:00:52 AM] [General] [Warn]     C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\lib\home_screen.dart:105:33
+[8:00:52 AM] [General] [Warn]     1 positional argument expected by 'Text.new', but 0 found.
+[8:00:55 AM] [General] [Info] Aborting!
+[8:02:01 AM] [General] [Info] Starting debug session...
+[8:02:01 AM] [General] [Info]     workspace: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:02:01 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:02:01 AM] [General] [Info] Using found common entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\lib\main.dart
+[8:02:01 AM] [General] [Info] Using workspace as cwd: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:02:01 AM] [General] [Info] Detected launch project as Flutter
+[8:02:01 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:02:01 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:02:01 AM] [General] [Info] Checking for errors before launching
+[8:02:01 AM] [General] [Info] Debug session starting...
+    {
+        "dartCodeDebugSessionID": "session-93a24",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart",
+        "projectRootPath": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo",
+        "cwd": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo",
+        "name": "Flutter (SM N975F)",
+        "deviceId": "127.0.0.1:21503",
+        "deviceName": "SM N975F (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code",
+            "FLUTTER_ROOT": "C:\\Users\\franc\\flutter"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "127.0.0.1:21503",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "showGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\franc\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\f…
+[8:02:01 AM] [General] [Info] Using flutter debugger for Flutter
+[8:02:01 AM] [General] [Info] SDK DAP setting is true, set by sdkDaps experiment
+[8:02:01 AM] [General] [Info] Running SDK DAP Dart VM in undefined: C:\Users\franc\flutter\bin\flutter.bat debug_adapter and options {"env":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"}}
+[8:02:03 AM] [General] [Info] Did not find session 1141fea3-5abc-42e1-a932-8fb91dc251b0 to handle dart.progressStart. There were 0 sessions:
+[8:02:03 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:02:03 AM] [General] [Info] Processing delayed event dart.progressStart for session 1141fea3-5abc-42e1-a932-8fb91dc251b0
+[8:16:28 AM] [General] [Info] Starting debug session...
+[8:16:28 AM] [General] [Info]     workspace: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:16:28 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:16:28 AM] [General] [Info] Using found common entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\lib\main.dart
+[8:16:28 AM] [General] [Info] Using workspace as cwd: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:16:28 AM] [General] [Info] Detected launch project as Flutter
+[8:16:28 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:16:28 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:16:28 AM] [General] [Info] Checking for errors before launching
+[8:16:28 AM] [General] [Info] Debug session starting...
+    {
+        "dartCodeDebugSessionID": "session-25003",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart",
+        "projectRootPath": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo",
+        "cwd": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo",
+        "name": "Flutter (SM N975F)",
+        "deviceId": "127.0.0.1:21503",
+        "deviceName": "SM N975F (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code",
+            "FLUTTER_ROOT": "C:\\Users\\franc\\flutter"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "127.0.0.1:21503",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "showGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\franc\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\f…
+[8:16:28 AM] [General] [Info] Using flutter debugger for Flutter
+[8:16:28 AM] [General] [Info] SDK DAP setting is true, set by sdkDaps experiment
+[8:16:28 AM] [General] [Info] Running SDK DAP Dart VM in undefined: C:\Users\franc\flutter\bin\flutter.bat debug_adapter and options {"env":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"}}
+[8:16:29 AM] [General] [Info] Did not find session 355779fe-48fa-484f-a46e-eb00a152d3e3 to handle dart.progressStart. There were 0 sessions:
+[8:16:29 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:16:29 AM] [General] [Info] Processing delayed event dart.progressStart for session 355779fe-48fa-484f-a46e-eb00a152d3e3
+[8:16:44 AM] [General] [Info] Starting debug session...
+[8:16:44 AM] [General] [Info]     workspace: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:16:44 AM] [General] [Info] Setting cwd based on likely entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:16:44 AM] [General] [Info] Using found common entry point: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo\lib\main.dart
+[8:16:44 AM] [General] [Info] Using workspace as cwd: C:\Users\franc\OneDrive\Desktop\Proyectos\movil\apptodo
+[8:16:44 AM] [General] [Info] Detected launch project as Flutter
+[8:16:44 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:16:44 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:16:44 AM] [General] [Info] Checking for errors before launching
+[8:16:44 AM] [General] [Info] Debug session starting...
+    {
+        "dartCodeDebugSessionID": "session-ae527",
+        "type": "dart",
+        "request": "launch",
+        "program": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\lib\\main.dart",
+        "projectRootPath": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo",
+        "cwd": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo",
+        "name": "Flutter (SM N975F)",
+        "deviceId": "127.0.0.1:21503",
+        "deviceName": "SM N975F (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code",
+            "FLUTTER_ROOT": "C:\\Users\\franc\\flutter"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "127.0.0.1:21503",
+            "--devtools-server-address",
+            "http://127.0.0.1:9100/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\Users\\franc\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "showGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\Users\\franc\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyectos\\movil\\apptodo\\logs\\f…
+[8:16:44 AM] [General] [Info] Using flutter debugger for Flutter
+[8:16:44 AM] [General] [Info] SDK DAP setting is true, set by sdkDaps experiment
+[8:16:44 AM] [General] [Info] Running SDK DAP Dart VM in undefined: C:\Users\franc\flutter\bin\flutter.bat debug_adapter and options {"env":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code","FLUTTER_ROOT":"C:\\Users\\franc\\flutter"}}
+[8:16:44 AM] [General] [Info] Did not find session e6a9abd2-31f3-4591-8a1c-254b5971bfa3 to handle dart.progressStart. There were 0 sessions:
+[8:16:44 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:16:44 AM] [General] [Info] Processing delayed event dart.progressStart for session e6a9abd2-31f3-4591-8a1c-254b5971bfa3
+[9:07:12 AM] [General] [Info] Took 38ms to search for projects (5 levels)
+[9:07:12 AM] [General] [Info] Took 7ms to filter out excluded projects (0 exclusion rules)
